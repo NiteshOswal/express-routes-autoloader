@@ -32,8 +32,7 @@ so for a directory structure like,
         |- nice.js
 ```
 
-It'll automatically generate routes as -
-
+It'll automatically generates routes to **quickly get you up and running!**
 ```
 /website/deeper/wow
 /website/much
