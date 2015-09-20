@@ -1,0 +1,26 @@
+{
+  "name": "express-routes-autoloader",
+  "version": "1.0.0",
+  "description": "A simple easy to use asynchronous autoloader, drop-in, configure & BOOM!",
+  "main": "autoloader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiteshOswal/express-routes-autoloader.git"
+  },
+  "keywords": [
+    "express.js",
+    "async",
+    "autoloader",
+    "routes",
+    "magic"
+  ],
+  "author": "Nitesh Oswal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NiteshOswal/express-routes-autoloader/issues"
+  },
+  "homepage": "https://github.com/NiteshOswal/express-routes-autoloader#readme"
+}
