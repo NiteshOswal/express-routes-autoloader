@@ -10,9 +10,10 @@ $ npm install express-routes-autoloader
 right after you initialize express in (app|index).js (or whatever's your file with the routes definition)
 
 ```js
-var autoloader = require('express-routes-autoloader');
+var autoloader = require('express-routes-autoloader'),
+    path = require('path');
 var app = express();
-new autoloader('./path/to/routes').load(app);
+new autoloader(path.join(__dirname, 'path/to/routes')).load(app); //I just recommend using path, because of the relative URLs
 ```
 
 And that's all folks!

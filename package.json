@@ -1,6 +1,6 @@
 {
   "name": "express-routes-autoloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple easy to use asynchronous autoloader, drop-in, configure & BOOM!",
   "main": "autoloader.js",
   "scripts": {
